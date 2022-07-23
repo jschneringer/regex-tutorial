@@ -30,25 +30,15 @@ Anchors are characters that have no other purpose than to "anchor the regex", th
 /^                <---Anchors--->               $/
    ([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})
 ### Quantifiers
-Quanitifiers are instances that limits the string that your regex can match. For example, the first quantifier (in brackets)in,[a-z0-9_\.-] tells us that the string CAN contain lowercase letters a thru z, contain numbers 0 thru 9, and include the proceeding special characters. 
-### OR Operator
-The OR Operator is used to seperate different components of the regex. The line | is the symbol for using the operator. The OR operator is used OUTSIDE quantifiers.
+Quantifiers specifies how many times a character may appear, most quantifiers are outlined in curly brackets {}. In our regex, our quantifiers as 2 AND 6. 
 ### Character Classes
 Character classes are used to define betwwen different kinds of characters, like letters, digits, or other special characters. 
-### Flags
-Flags are essential limitation of possiblilies the regex characters could find. Some flag examples include, case-sensitivity, first match versus all matches.
 ### Grouping and Capturing
-
+Grouping and capturing are executied by using the () symbols. if you look at our regex /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/ we have 3 groupings. 
 ### Bracket Expressions
-
+Bracket Expressions are parameters within the []that your regex can match. For example, the first bracket,[a-z0-9_\.-] tells us that the string CAN contain lowercase letters a thru z, contain numbers 0 thru 9, and include the proceeding special characters. 
 ### Greedy and Lazy Match
 
-### Boundaries
-
-### Back-references
-
-### Look-ahead and Look-behind
-
 ## Author
+You can see more of my repositories at https://github.com/jschneringer
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
