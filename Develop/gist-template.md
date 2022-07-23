@@ -25,7 +25,9 @@ The purpose of this tutorial is to look at the different components that make up
 ## Regex Components
 
 ### Anchors
-Anchors are characters that have no other purpose than to "anchor the regex", they don't represent a character. The caret ^ indicates the beginning of the regex while the dollar sign $ indicates the end of the expression.
+Anchors are characters that have no other purpose than to "anchor the regex", they don't represent a character. The caret ^ indicates the beginning of the regex while the dollar sign $ indicates the end of the expression. All regexes are also started and ended with a /.
+
+<b>/^</b>([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})<b>$/</b>
 ### Quantifiers
 
 ### OR Operator
