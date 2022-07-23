@@ -1,10 +1,12 @@
-# Title (replace with your title)
+Regex Tutorial: Matching an Email 
 
-Introductory paragraph (replace this with your text)
+A Regular Expression (or Regex) is a filter that is used to fing certain sequences of characters in text. 
 
 ## Summary
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+The purpose of this tutorial is to look at the different components that make up regular expressions and how they can be used to to verify user emails.
+/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
+
 
 ## Table of Contents
 
@@ -23,7 +25,7 @@ Briefly summarize the regex you will be describing and what you will explain. In
 ## Regex Components
 
 ### Anchors
-
+Anchors are characters that have no other purpose than to "anchor the regex", they don't represent a character. The caret ^ indicates the beginning of the regex while the dollar sign $ indicates the end of the expression.
 ### Quantifiers
 
 ### OR Operator
